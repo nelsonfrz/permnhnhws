@@ -42,7 +42,7 @@ function Grid({
 
 export function InitialConditionsGridEditor() {
   const [matrixPotential, setMatrixPotential] = useState<number>(0);
-  const [size, setSize] = useState<number>(16);
+  const [size, _setSize] = useState<number>(16);
   const [nodes, setNodes] = useState<number[]>(Array.from({ length: size * size }, () => 0));
 
   const handleCellClick = (index: number) => {

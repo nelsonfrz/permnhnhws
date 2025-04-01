@@ -1,7 +1,6 @@
 import { Button } from '@/components/ui/button';
 import { createFileRoute } from '@tanstack/react-router';
 import { Play } from 'lucide-react';
-import { useState } from 'react';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { BoundaryConditionsForm } from '@/components/dashboard/boundary-conditions-form';
 import { InitialConditionsGridEditor } from '@/components/dashboard/initial-conditions-grid-editor';
@@ -15,8 +14,6 @@ export type Node = {
 };
 
 function RouteComponent() {
-  const [nodes, setNodes] = useState<Node[]>([]);
-
   return (
     <div className="p-4">
       <div className="flex flex-wrap justify-between">

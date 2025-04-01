@@ -38,7 +38,7 @@ export function AnalysisForm() {
       start_elapsed: 0,
       end_elapsed: 0,
       bins: 20,
-      conversion_factor: 13.05,
+      conversion_factor: 10.3958,
     },
   });
 
@@ -96,7 +96,9 @@ export function AnalysisForm() {
                 <FormControl>
                   <Input type="number" {...field} />
                 </FormControl>
-                <FormDescription>End elapsed time (ms) for the analysis (0 selects whole dataset).</FormDescription>
+                <FormDescription>
+                  End elapsed time (ms) for the analysis (0 selects whole dataset).
+                </FormDescription>
                 <FormMessage />
               </FormItem>
             )}

@@ -1,12 +1,4 @@
-import {
-  ChevronRight,
-  Database,
-  Gauge,
-  Ruler,
-  Settings,
-  SquareFunction,
-  type LucideIcon,
-} from 'lucide-react';
+import { ChevronRight, Database, Gauge, Ruler, type LucideIcon } from 'lucide-react';
 
 import { Collapsible, CollapsibleContent, CollapsibleTrigger } from '@/components/ui/collapsible';
 import {

@@ -241,6 +241,7 @@ def analyse_measurement(analysis: AnalysisRequest):
     axs[2].hist(valid_ks, bins=analysis.bins, color="green", alpha=0.7)
     axs[2].set_xlabel("$k_s$")
     axs[2].set_ylabel("Frequency")
+    axs[2].set_title(f"Histogram of $k_s$ ({analysis.bins} bins)")
     ks_dict = {
         "Silty clay": 0.0003,
         "Silty clay loam": 0.0012,

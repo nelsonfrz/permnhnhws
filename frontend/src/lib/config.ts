@@ -1,1 +1,1 @@
-export const BACKEND_PREFIX_URL = "http://localhost:8001"
+export const BACKEND_PREFIX_URL = "https://permnhnhws.local"
